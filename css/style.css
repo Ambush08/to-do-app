@@ -1,0 +1,46 @@
+body{
+    background: lightgrey;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#add-task-container{
+    display: flex;
+    padding: 20px 10px;
+    background: #fff;
+    box-shadow: 0 0 3px;
+    border-radius: 15px;
+}
+
+#input-task{
+    flex: 5;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#add-task{
+    flex: 0.5;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid green;
+    transition: .3s;
+    color: green;
+}
+
+#add-task:hover{
+    background: green;
+    color: #fff;
+}
